@@ -129,7 +129,7 @@
                         </div>
 
                         <a href="{{ route('employee.index') }}" class="my-3 btn btn-danger">Back</a>
-                        <input type="submit" class="my-3 btn btn-success" value="Upodate">
+                        <input type="submit" class="my-3 btn btn-success" value="Update">
                         {{-- END ROW --}}
                 </div>
 

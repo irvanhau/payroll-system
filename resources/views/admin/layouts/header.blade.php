@@ -3,7 +3,7 @@
         <div class="d-flex">
             <!-- LOGO -->
             <div class="navbar-brand-box">
-                <a href="index.html" class="logo logo-dark">
+                <a href="{{ route('employee-salary-period.index') }}" class="logo logo-dark">
                     <span class="logo-sm">
                         <img src="{{ asset('logo/logo.jpg') }}" alt="logo-sm" height="100">
                     </span>
@@ -12,7 +12,7 @@
                     </span>
                 </a>
 
-                <a href="index.html" class="logo logo-light">
+                <a href="{{ route('employee-salary-period.index') }}" class="logo logo-light">
                     <span class="logo-sm">
                         <img src="{{ asset('logo/logo.jpg') }}" alt="logo-sm-light" height="22">
                     </span>
@@ -27,12 +27,12 @@
             </button>
 
             <!-- App Search-->
-            <form class="app-search d-none d-lg-block">
+            {{-- <form class="app-search d-none d-lg-block">
                 <div class="position-relative">
                     <input type="text" class="form-control" placeholder="Search...">
                     <span class="ri-search-line"></span>
                 </div>
-            </form>
+            </form> --}}
         </div>
 
         <div class="d-flex">
